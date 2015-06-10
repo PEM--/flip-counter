@@ -1,11 +1,10 @@
 .flip-container
   absolute top 50% left 50%
   display block
-  width 400px
+  width auto
   transform translate3d(-50%, -50%, 0)
-
   .flip-clock-divider
-    height 65px
+    height 50px
     .flip-clock-label
       font-family $helvetica
       font-weight 100
@@ -16,38 +15,37 @@
       color white
     &.days
       .flip-clock-label
-        left 39px
+        left 27px
     &.hours
       .flip-clock-label
-        left 39px
+        left 29px
     &.minutes
       .flip-clock-label
-        left 35px
+        left 28px
     &.seconds
       .flip-clock-label
-        left 28px
-
+        left 20px
   // Double dots between values
   .flip-clock-dot
     background white
-    size 6px
+    size 4px
     left 7px
     &.top
-      top 17px
+      top 15px
     &.bottom
-      bottom 28px
+      bottom 23px
 
   // General behavior
   ul
     margin 1px
-    size 30px 50px
-    font-size 27px
-    font-weight 100
+    size 15px 35px
+    font-size 20px
+    font-weight 300
     li
-      line-height 45px
+      line-height 33px
       // Displayed digits
       a div div.inn
-        border 1px solid rgba(white, 30%)
+        border 1px solid rgba(white, 10%)
         color white
-        background black
-        font-size 30px
+        background linear-gradient(top, lighten(black, 10%) 0%, black 100%)
+        font-size 20px
