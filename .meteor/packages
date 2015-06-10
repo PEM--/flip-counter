@@ -9,4 +9,5 @@ coffeescript
 mquandalle:stylus
 mquandalle:jade
 momentjs:moment
+velocityjs:velocityjs
 rzymek:moment-locale-fr
