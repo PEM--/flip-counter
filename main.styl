@@ -4,18 +4,20 @@
 global-reset()
 
 blackBg = #1d1d1b
-bgColor = #ffffff
+textColor = #ffffff
 
-$min-font 14px
-
-//typographic()
+typographic()
+t-headers($helvetica)
 
 html, body
   size 100% 100vh
 html, body, .flip-container
   background blackBg
-  color bgColor
+  color textColor
   font-family $helvetica
+
+h1
+  color textColor
 
 .flip-container
   absolute top 50% left 50%

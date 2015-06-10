@@ -1,0 +1,12 @@
+{
+  "name": "flip-clock",
+  "version": "0.0.1",
+  "dependencies": {
+    "flipclock": "0.7.7"
+  },
+  "overrides": {
+    "flipclock": {
+      "arch": [ "client" ]
+    }
+  }
+}

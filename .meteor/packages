@@ -8,6 +8,7 @@ meteor-platform
 coffeescript
 mquandalle:stylus
 mquandalle:jade
+mquandalle:bower
 momentjs:moment
 velocityjs:velocityjs
 rzymek:moment-locale-fr
