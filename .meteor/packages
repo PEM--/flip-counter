@@ -5,5 +5,8 @@
 # but you can also edit it by hand.
 
 meteor-platform
-autopublish
-insecure
+coffeescript
+mquandalle:stylus
+mquandalle:jade
+momentjs:moment
+rzymek:moment-locale-fr
