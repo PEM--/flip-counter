@@ -1,0 +1,22 @@
+@import 'nib'
+@import 'typographic'
+
+global-reset()
+
+blackBg = #1d1d1b
+bgColor = #ffffff
+
+$min-font 14px
+
+//typographic()
+
+html, body
+  size 100% 100vh
+html, body, .flip-container
+  background blackBg
+  color bgColor
+  font-family $helvetica
+
+.flip-container
+  absolute top 50% left 50%
+  transform translate3d(-50%, -50%, 0)
