@@ -19,13 +19,14 @@
 #   , 1000
 
 if Meteor.isClient
+  @clock = {}
   Template.flipCounter.onRendered ->
     currentDate = new Date
-    futureDate = new Date("June 16, 2016  08:00:00")
+    futureDate = new Date("November 16, 2015  23:59:59")
     diff = futureDate.getTime() / 1000 - currentDate.getTime() / 1000
 
-    clock = $(".clock").FlipClock(diff,
-      clockFace: "DailyCounter"
+    window.clock = $(".clock").FlipClock diff,
+      clockFace: 'DailyCounter'
+      language: 'fr'
       countdown: true
       showSeconds: true
-    )
